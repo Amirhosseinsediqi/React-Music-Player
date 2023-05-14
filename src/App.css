@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+
+*{
+  text-decoration: none !important;
+}
+
+/* navbar */
+.navbar .navbar-brand {
+  font-family: Pacifico;
+  font-weight: 600;
+  color: blue;
+}
+
+.navbar {
+  font-family: Nunito;
+  text-transform: uppercase;
+}
+
+.navbar .collapse {
+  flex-grow: initial;
+  padding: 10px;
+}
+
+.nav-item a {
+  color: white;
+  font-weight: 600;
+}
+
+.navbar-nav li:last-child {
+  background-color: white;
+  border-radius: 20px;
+  padding-inline: 30px;
+}
+
+.navbar-nav li:last-child a {
+  color: blue;
+  font-weight: 900;
+  border-radius: 20px;
+  padding-inline: 30px;
+}
+
+
+/* Audio player */
+
+.audio-player{
+  margin-top: 4.5em;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* audio info */
+.audio-info {
+  display: flex;
+  gap: 20px;
+}
+
+.text {
+  color: #444945;
+  font-size: 20px;
+  font-family: Nunito;
+  text-align: center;
+}
+.buttons a:first-child{
+  background-color: #E5835E;
+  color: #fff;
+  border-radius: 2em;
+}
+
+.title {
+  color: #4367FB;
+  font-weight: 900;
+  font-size: 65px;
+  font-family: Nunito;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+  line-height: 1.2em;
+}
+.new{
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.etc{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* audio image */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.audio-image {
+  width: 27em;
+  height: 27em;
+  margin-bottom: 2em !important;
+  border: 4px solid blue;
+  border-radius: 50%;
+  padding: 6px;
+
+}
+.audio-image img{
+  border-radius: 50%;
+  
+}
+
+.audio-icon {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #989898;
+}
+
+.audio-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* controls */
+.controls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 8em;
+}
+
+.controls button,
+.volume button {
+  border: none;
+  background-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+button svg {
+  font-size: 20px;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+}
+
+.volume button {
+  margin: 0;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* time */
+.time {
+  padding: 15px;
+  color: #333;
+  font-size: 13px;
+  line-height: 46px;
+}
+
+.time.current {
+  padding: 15px;
+  color: #f50;
+}
+
+/* Top bar */
+.top__bar {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f2;
+}
+
+.top__bar a {
+  color: inherit;
+}
+
+.top__bar p {
+  margin: 0;
+}
