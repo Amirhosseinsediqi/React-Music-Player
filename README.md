@@ -1,7 +1,10 @@
 
 ## Demo
 
-<img src="https://s8.uupload.ir/files/react_music_player_khq9.png" alt="demo" style="border-raduis: 20px;"/>
+<img src="https://s8.uupload.ir/files/react_music_player_khq9.png" alt="demo" />
+
+
+
 # React Music Player App
 
 Welcome to the React Music Player App! This is a simple yet efficient music player built with React that allows users to listen to their favorite songs and customize their listening experience. With a sleek interface and seamless functionality, this app is perfect for anyone who loves music.
