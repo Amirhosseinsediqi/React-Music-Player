@@ -1,8 +1,7 @@
 
 ## Demo
 
-
-https://drive.google.com/file/d/1pJ7wjW7L6BJzxRzRyvwQVg7fdQbVfmO9/view?usp=share_link
+https://www.thefarmersdog.com/digest/wp-content/uploads/2020/05/Ears-pitbull-2-scaled.jpg
 # React Music Player App
 
 Welcome to the React Music Player App! This is a simple yet efficient music player built with React that allows users to listen to their favorite songs and customize their listening experience. With a sleek interface and seamless functionality, this app is perfect for anyone who loves music.
